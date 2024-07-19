@@ -1,0 +1,179 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 58px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    scroll-behavior: smooth;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.options{
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+    color: white;
+}
+
+.options a{
+    margin: 5px 20px 15px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+    scroll-behavior: smooth;
+    padding-bottom: 8px;
+    
+}
+
+.options a:hover{
+    font-size: 28px;
+    color: red;
+}
+
+.thehome{
+    display: flex;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(125, 125, 122);
+    margin-top: 80px;
+
+}
+
+.welcome h1{
+    margin-top: 30px ;
+    margin-left: 30px;
+    font-size: 68px;
+}
+
+.welcome p{
+    margin-top: 20px ;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.carimg img{
+    width: 990px;
+    padding-right: 28px;
+}
+
+.theabt , .servings{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  rgb(125, 125, 122);
+
+}
+
+.theabt h1{
+    padding: 20px;
+    font-size: 44px;
+}
+.theabt p{
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.s{
+    height: 150px;
+    border: 2px solid white;
+    margin: 50px 80px;
+    padding: 20px;
+    font-size: 28px;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px rgb(255, 255, 255);;
+    transition: 0.25s;
+    
+}
+
+.serves{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.s:hover{
+    box-shadow: 0px 0px 0px;
+    height: 154px;
+    width: auto;
+    cursor:pointer;
+}
+
+.s1{
+    background-image: url("mechanic-with-maintenance-checklist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s2{
+    background-image: url("8857364.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s3{
+    background-image: url("tuning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    margin: 40px;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    background-color: rgb(242, 130, 130);
+    transition: 0.25s;
+}
+
+.btn:hover{
+    width: 185px;
+    height: 82px;
+    border: 2px solid rgb(131, 0, 0);
+    background-color: rgb(42, 12, 12);
+    box-shadow: 8px 8px 8px rgb(61, 1, 1);
+    color: white;
+    cursor: pointer;
+
+}
+
+footer{
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
